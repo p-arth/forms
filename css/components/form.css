@@ -1,0 +1,29 @@
+/* Your form design */
+#form {
+  /*border: 1px solid grey;*/
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 10px #82dbff;
+  padding: 25px;
+}
+
+#form:hover {
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 55px 15px #82dbff;
+  }
+
+  70% {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px 10px #82dbff;
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 55px 15px #82dbff;
+  }
+}
